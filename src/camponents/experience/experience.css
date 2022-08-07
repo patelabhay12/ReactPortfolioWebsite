@@ -1,0 +1,105 @@
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+    --transition: all 400ms ease;
+}
+
+
+
+
+
+.exprience_container {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 2rem;
+}
+
+
+.exprience_container>div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.exprience_container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+
+.exprience_container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+
+}
+
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience_details {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+
+
+
+/*########################## MEDIA QUERIES (MEDIUM DEVICES) ########### */
+
+
+@media screen and (max-width:1024px) {
+    
+    .exprience_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .exprience_container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience_content {
+        padding: 1rem;
+    }
+}
+
+
+/*########################## MEDIA QUERIES (SMALL DEVICES) ########### */
+
+
+
+@media screen and (max-width:600px) {
+    .exprience_container
+    {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .exprience_container>div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+}
