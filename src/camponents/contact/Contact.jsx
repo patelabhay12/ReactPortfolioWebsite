@@ -16,7 +16,7 @@ const allData = [
     name: 'Email',
 
     para: 'abhaypatel6794@gamil.com',
-    href: 'mailto:abhaypatel794@gmail.com',
+    href: 'mailto:abhaypatel6794@gmail.com',
     anker: 'Send a message'
   },
   {
