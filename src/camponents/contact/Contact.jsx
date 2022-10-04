@@ -15,7 +15,7 @@ const allData = [
     icon: <HiOutlineMailOpen />,
     name: 'Email',
 
-    para: 'abhaypatel794@gamil.com',
+    para: 'abhaypatel6794@gamil.com',
     href: 'mailto:abhaypatel794@gmail.com',
     anker: 'Send a message'
   },
