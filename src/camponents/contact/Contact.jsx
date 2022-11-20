@@ -15,7 +15,7 @@ const allData = [
     icon: <HiOutlineMailOpen />,
     name: 'Email',
 
-    para: 'abhaypatel794@gamil.com',
+    para: 'abhaypatel6794@gamil.com',
     href: 'mailto:abhaypatel794@gmail.com',
     anker: 'Send a message'
   },
@@ -41,14 +41,14 @@ const allData = [
 
 
 const Contact = () => {
-    const form = useRef();
+  const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-      emailjs.sendForm('service_54iakxk', 'template_70e9718', form.current, '-Ht5bRwLoUwOpfPTj')
-      e.target.reset();
-    };
+    emailjs.sendForm('service_54iakxk', 'template_70e9718', form.current, '-Ht5bRwLoUwOpfPTj')
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -72,7 +72,7 @@ const Contact = () => {
         {/* End of coontact option */}
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email"  name='email' placeholder='Your Email' required />
+          <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>

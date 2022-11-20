@@ -20,27 +20,24 @@ const About = () => {
         </div>
         <div className='about_content'>
           <div className='about_cards'>
-
             <articel className="about_card">
               <FaAward className='about_icon' />
               <h5>Experience</h5>
               <small> 1 Years Working</small>
             </articel>
-          
             <articel className="about_card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
               <small>100+ Worldwide</small>
             </articel>
-      
+
             <articel className="about_card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </articel>
-
           </div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+          <p>My self Abhay Patel. I'm a 3rd-year student at Noida Institute of Engineering and Technology. I did My schooling at S I C Mungra Badshahspur Jaunpur. My Strength is a Quick Learner, and a Hard worker who enhances knowledge about new technologies. My Hobbies are playing Cricket, Listening to songs and Reading Holy Books.</p>
 
           <a href="#contact" className='btn bnt-primary'>Let's Talk</a>
         </div>
