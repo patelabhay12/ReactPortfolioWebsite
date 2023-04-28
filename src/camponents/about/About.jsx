@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import about from "../../assets/me-about.jpeg";
+import about from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
@@ -37,7 +37,7 @@ const About = () => {
               <small>10+ Completed</small>
             </articel>
           </div>
-          <p>My self Abhay Patel. I'm a 3rd-year student at Noida Institute of Engineering and Technology. I did My schooling at S I C Mungra Badshahspur Jaunpur. My Strength is a Quick Learner, and a Hard worker who enhances knowledge about new technologies. My Hobbies are playing Cricket, Listening to songs and Reading Holy Books.</p>
+          <p>My self Abhay Patel. I'm a 3rd-year student at Noida Institute of Engineering and Technology. I completed my secondray education from R D M S S Mungra Badshahpur  and Senior secondray education from  S I C Mungra Badshahspur Jaunpur. My Strength includes that I'm a Quick Learner and a Hard worker who enhances knowledge about new technologies. My Hobbies are playing Cricket, Listening music and Reading Holy Books.</p>
 
           <a href="#contact" className='btn bnt-primary'>Let's Talk</a>
         </div>
