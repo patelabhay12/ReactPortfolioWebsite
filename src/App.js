@@ -15,7 +15,7 @@
     <>
     <Header/>
     <Nav/>
-    <About/>
+    <About />
     <Experience/>
     <Services/>
     <Portfolio/>
