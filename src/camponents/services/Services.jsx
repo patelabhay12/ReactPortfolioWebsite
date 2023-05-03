@@ -16,24 +16,24 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Gathering and evaluating user requirements, in collaboration with product managers and engineers</p>
             </li>
             <li>
+              <AiOutlineCheck className='service_list-icon'/>
+              <p>Illustrating design ideas using storyboards, process flows and sitemaps</p>
+            </li>
+            <li>
+              <AiOutlineCheck className='service_list-icon'/>
+              <p>Esigning graphic user interface elements, like menus, tabs and widgets etc.</p>
+            </li> 
+            {/* <li>
               <AiOutlineCheck className='service_list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -41,33 +41,30 @@ const Services = () => {
 
         <article className='services'>
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>MERN STACK DEVELOPER</h3>
           </div>
           <ul className='service_list'>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Work on back-end & front-end development of core scripts using NodeJS/ MongoDB/React.js/Angular/Express /Redux.</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Write reusable, easy to maintain, versioned code using DRY principles</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Familiarity with Server-Oriented Architecture and RESTful Web Services</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Good exposure in creating dynamic web pages</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Knowledge of data structures and algorithms</p>
             </li>
-            <li>
-              <AiOutlineCheck className='service_list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+  
           </ul>
         </article>
 
@@ -101,9 +98,6 @@ const Services = () => {
             </li>
           </ul>
         </article>
-
-
-
       </div>
     </section>
   )

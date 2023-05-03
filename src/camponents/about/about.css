@@ -13,7 +13,9 @@
 }
 
 
-
+#about{
+    padding-top: 10rem;
+}
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;

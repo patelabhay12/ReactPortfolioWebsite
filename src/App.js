@@ -9,7 +9,6 @@
  import Contact from "./camponents/contact/Contact";
  import Footer from "./camponents/footer/Footer";
  
- 
  const App = () => {
    return (
     <>
