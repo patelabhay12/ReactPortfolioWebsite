@@ -35,7 +35,7 @@
     height: 25rem;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    /* transform: rotate(100deg); */
     transition: var(--transition);
 }
 

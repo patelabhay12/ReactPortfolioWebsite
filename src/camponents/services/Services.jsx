@@ -46,7 +46,7 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
-              <p>Work on back-end & front-end development of core scripts using NodeJS/ MongoDB/React.js/Angular/Express /Redux.</p>
+              <p>Work on back-end & front-end development of core scripts using NodeJS/ MongoDB/React.js/Express.</p>
             </li>
             <li>
               <AiOutlineCheck className='service_list-icon'/>
