@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactPortfolioWebsite/static/css/main.7046556b.css",
-    "main.js": "/ReactPortfolioWebsite/static/js/main.8de7059b.js",
+    "main.css": "/ReactPortfolioWebsite/static/css/main.455d9c87.css",
+    "main.js": "/ReactPortfolioWebsite/static/js/main.7afc0141.js",
     "static/media/portfolio5.png": "/ReactPortfolioWebsite/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/me-about.jpg": "/ReactPortfolioWebsite/static/media/me-about.b51c513dcb764248a4c6.jpg",
-    "static/media/cv.pdf": "/ReactPortfolioWebsite/static/media/cv.4149b023c4e934434c81.pdf",
     "static/media/portfolio2.jpg": "/ReactPortfolioWebsite/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/ReactPortfolioWebsite/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/cv.pdf": "/ReactPortfolioWebsite/static/media/cv.fce7d323a3b5725b090c.pdf",
     "static/media/portfolio1.jpg": "/ReactPortfolioWebsite/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/me-1.jpg": "/ReactPortfolioWebsite/static/media/me-1.b6f28cdf992c6710caff.jpg",
+    "static/media/me-2.jpg": "/ReactPortfolioWebsite/static/media/me-2.b484afcbad4bbaab1b5b.jpg",
     "static/media/portfolio3.jpg": "/ReactPortfolioWebsite/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/me.jpg": "/ReactPortfolioWebsite/static/media/me.22b2cfac91f0582300db.jpg",
     "static/media/portfolio4.jpg": "/ReactPortfolioWebsite/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/ReactPortfolioWebsite/index.html",
-    "main.7046556b.css.map": "/ReactPortfolioWebsite/static/css/main.7046556b.css.map",
-    "main.8de7059b.js.map": "/ReactPortfolioWebsite/static/js/main.8de7059b.js.map"
+    "main.455d9c87.css.map": "/ReactPortfolioWebsite/static/css/main.455d9c87.css.map",
+    "main.7afc0141.js.map": "/ReactPortfolioWebsite/static/js/main.7afc0141.js.map"
   },
   "entrypoints": [
-    "static/css/main.7046556b.css",
-    "static/js/main.8de7059b.js"
+    "static/css/main.455d9c87.css",
+    "static/js/main.7afc0141.js"
   ]
 }
